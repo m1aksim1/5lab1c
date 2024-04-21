@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="485478db-067c-429e-a4ec-62987435aea1">
+  <producedTypes>
+    <selectionType typeId="ed3e53b0-5f75-4849-a06a-cb4eb2eb0254" valueTypeId="9bec767e-8402-4157-a852-491ad9f8fb37"/>
+    <listType typeId="5e9bf799-3c58-438a-9252-b0a267c88168" valueTypeId="1110b58c-61a5-4669-b13a-e99b3eda4d5f"/>
+    <managerType typeId="b9673997-dc59-4470-b21d-2f03f724132c" valueTypeId="966a57da-6808-420e-944e-d60192a70d59"/>
+    <recordSetType typeId="ff40fd31-8728-4526-9976-ff58667f2eae" valueTypeId="e098146e-d326-4c01-9b17-4638192c92a1"/>
+    <recordKeyType typeId="7f79647c-c9c2-46bb-8a98-41ae5bc36c38" valueTypeId="cfc72fcb-974f-4656-b8e9-90ddd34b23e6"/>
+    <recordType typeId="a682d18a-29e3-4772-9f6e-1f60520aa5b8" valueTypeId="d598d81e-9d1d-4277-9062-9b420799a5b1"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="eaea1472-6ce8-43b8-be19-1172c6504ff6">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="04c7fb8b-542b-44dc-bdd4-2d0f1416cd9c">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
