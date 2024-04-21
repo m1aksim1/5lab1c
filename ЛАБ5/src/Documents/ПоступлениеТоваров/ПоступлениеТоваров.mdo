@@ -36,23 +36,6 @@
       <key>ru</key>
       <value>Товар</value>
     </synonym>
-    <attributes uuid="5e861e56-a81a-4e3b-ad7e-4f8b56955a12">
-      <name>Количество</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="f811cdaf-5071-4057-8533-4bd03e52b60b">
       <name>Товар</name>
       <synonym>
@@ -61,6 +44,24 @@
       </synonym>
       <type>
         <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5e861e56-a81a-4e3b-ad7e-4f8b56955a12">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
