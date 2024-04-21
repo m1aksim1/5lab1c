@@ -38,4 +38,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
 </mdclass:Configuration>
